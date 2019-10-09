@@ -27,3 +27,15 @@ scp -r *local-dir-path* *user*@*dest-host*:*remote-file-path*
 git fetch origin
 git reset --hard origin/master
 ```
+
+**Empty commit**
+```
+git commit --allow-empty -m 'trigger something'
+```
+
+**Change or amend a commit messge**
+```
+git commit --amend
+```
+
+
