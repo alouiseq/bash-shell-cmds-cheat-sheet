@@ -38,4 +38,7 @@ git commit --allow-empty -m 'trigger something'
 git commit --amend
 ```
 
-
+**Pull the latest from master branch and rebase**
+```
+git pull --rebase origin master
+```
