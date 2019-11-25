@@ -1,9 +1,8 @@
-<!-- # useful-bash-shell-commands -->
-# Shell commands a developer might find useful.
+# Coding Cheat Sheet
 
 **Create a directory and navigate to it**
 ```
-mkdir *dir* && cd $_
+mkdir _dir_ && cd $_
 ```
 
 **Copy files and directories between two systems securely**
@@ -41,4 +40,10 @@ git commit --amend
 **Pull the latest from master branch and rebase**
 ```
 git pull --rebase origin master
+```
+
+**Check your current shell and then change your shell**
+```
+echo $SHELL
+chsh -s /bin/<bash | zsh | ...>
 ```
