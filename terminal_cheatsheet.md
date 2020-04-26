@@ -87,3 +87,13 @@ rbenv global <ruby_version>
 ```
 gem install rails -v <rails_version>
 ```
+
+**Create a new rails application**
+```
+rails new <app_name>
+```
+
+**Show Rails routes**
+```
+rails routes
+```
