@@ -34,6 +34,13 @@ echo $SHELL
 chsh -s /bin/<bash | zsh | ...>
 ```
 
+# HOMEBREW COMMANDS --------------
+
+**Update Homebrew**
+```
+brew update
+```
+
 # GIT COMMANDS -----------------
 
 **Set your branch to match the remote branch (master in this case)**
@@ -74,4 +81,9 @@ rbenv versions
 **Change your current ruby version**
 ```
 rbenv global <ruby_version>
+```
+
+**Install Rails**
+```
+gem install rails -v <rails_version>
 ```
