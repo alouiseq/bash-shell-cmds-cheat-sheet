@@ -59,6 +59,13 @@ git pull --rebase origin master
 
 # RUBY / RAILS ---------------
 
+**Assuming the following uses rbenv to manage ruby versions**
+
+**Install a fresh copy of Ruby**
+```
+rbenv install <ruby_version>
+```
+
 **Check versions and current version**
 ```
 rbenv versions
@@ -66,5 +73,5 @@ rbenv versions
 
 **Change your current ruby version**
 ```
-rbenv global <ruby_version_number>
+rbenv global <ruby_version>
 ```
