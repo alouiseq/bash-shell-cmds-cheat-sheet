@@ -1,5 +1,7 @@
 # Terminal CheatSheet
 
+# CLI --------------
+
 **Create a directory and navigate to it**
 ```
 mkdir _dir_ && cd $_
@@ -26,6 +28,14 @@ history
 !<line #>:p
 ```
 
+**Check your current shell and then change your shell**
+```
+echo $SHELL
+chsh -s /bin/<bash | zsh | ...>
+```
+
+# GIT COMMANDS -----------------
+
 **Set your branch to match the remote branch (master in this case)**
 ```
 git fetch origin
@@ -47,8 +57,14 @@ git commit --amend
 git pull --rebase origin master
 ```
 
-**Check your current shell and then change your shell**
+# RUBY / RAILS ---------------
+
+**Check versions and current version**
 ```
-echo $SHELL
-chsh -s /bin/<bash | zsh | ...>
+rbenv versions
+```
+
+**Change your current ruby version**
+```
+rbenv global <ruby_version_number>
 ```
