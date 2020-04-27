@@ -69,5 +69,5 @@ rails db:migrate VERSION=0
 
 **Create database**
 ```
-rails db:create
+rake db:create
 ```
