@@ -56,3 +56,18 @@ rails destroy model <model_name>
 ```
 rails db:migrate
 ```
+
+**Database Undo Migration**
+```
+rails db:rollback
+```
+
+**Database Undo Migration from the beginning**
+```
+rails db:migrate VERSION=0
+```
+
+**Create database**
+```
+rails db:create
+```
