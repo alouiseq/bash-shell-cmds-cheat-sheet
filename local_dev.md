@@ -13,5 +13,5 @@
 
 ## FZF
 
-`:F2F` **:  open f2f in vim**<br />
-`f2f` **:  start f2f on cli**<br />
+`:FZF` **:  open fzf in vim**<br />
+`fzf` **:  start fzf on cli**<br />
