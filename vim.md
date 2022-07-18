@@ -19,3 +19,25 @@ gn: the next match
 
 :set nu
 :set nonu
+
+**NerdTree**
+
+`:NERDTree` **:  Open NerdTree in vim**<br />
+`o` **:  open in window**<br />
+`go` **: preview window**<br />
+`i` **:  open in split window**<br />
+`s` **:  open in vsplit window**<br />
+`t` **:  open in new tab**<br />
+`ctrl-w(2x)` **:  switch to the next window**<br />
+`ctrl-w h` **:  switch to the previous window**<br />
+`gt` **:  switch to the next tab**<br />
+`gT` **:  switch to previous tab**<br />
+
+**FZF**
+
+`:FZF` **:  open fzf for file searcher**<br />
+
+**Ag**
+
+`:Ag <pattern>` **: open Ag for word searcher**<br />
+
