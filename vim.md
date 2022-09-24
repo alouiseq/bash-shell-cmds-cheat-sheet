@@ -1,5 +1,24 @@
 # VIM - Some useful frequently used keyboard shortcuts
 
+**Comment and uncomment multiple lines**
+
+*Comment*
+```
+CTRL+v to enter visual block mode
+Use j to navigate the desired beginning of the lines
+SHIFT+i to enter insert mode
+Type // and hit ESC
+```
+
+*Uncomment*
+```
+CTRL+v to enter visual block mode
+Use j to navigate and higlight the desired // blocks
+Hit x to delete
+```
+
+===============================================
+
 **Select multiple text and apply change to all**
 
 ```
@@ -11,14 +30,22 @@ c: change
 gn: the next match
 .: change the next occurence
 
+===============================================
+
 **Remove highlighted text**
 
-:nohl
+` :nohl `
+
+===============================================
 
 **Enable/disable numbered lines**
 
+```
 :set nu
 :set nonu
+```
+
+===============================================
 
 **NerdTree**
 
@@ -33,9 +60,13 @@ gn: the next match
 `gt` **:  switch to the next tab**<br />
 `gT` **:  switch to previous tab**<br />
 
+===============================================
+
 **FZF**
 
 `:FZF` **:  open fzf for file searcher**<br />
+
+===============================================
 
 **Ag**
 
