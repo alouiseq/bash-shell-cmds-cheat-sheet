@@ -47,6 +47,12 @@ gn: the next match
 
 ===============================================
 
+**Retain yank by explicitly using a register (a in this case)**
+`"ay` **: copy and add to register a**<br />
+`"ap` **: paste from register a**<br />
+
+===============================================
+
 **NerdTree**
 
 `:NERDTree` **:  Open NerdTree in vim**<br />
