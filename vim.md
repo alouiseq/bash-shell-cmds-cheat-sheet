@@ -47,6 +47,13 @@ gn: the next match
 
 ===============================================
 
+**Search with case sensitive or insensitive**
+
+`/search\C`  # case sensitive search
+`/search\c`  # case insensitive search
+
+===============================================
+
 **Retain yank by explicitly using a register (a in this case)**
 `"ay` **: copy and add to register a**<br />
 `"ap` **: paste from register a**<br />

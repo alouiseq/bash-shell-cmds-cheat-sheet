@@ -6,7 +6,7 @@
 `tmux`
 
 **List windows**
-`tmux list-windows`
+`tmux list-windows` # copy the layout to tmuxinator config
 
 **Delete session**
 `C-b -d`
