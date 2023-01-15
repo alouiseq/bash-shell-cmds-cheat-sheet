@@ -49,8 +49,14 @@ gn: the next match
 
 **Search with case sensitive or insensitive**
 
-`/search\C`  # case sensitive search
-`/search\c`  # case insensitive search
+`/pattern\C`  # case sensitive search
+`/pattern\c`  # case insensitive search
+
+===============================================
+
+**Find and replace**
+
+`%s/pattern/replace\g`
 
 ===============================================
 
