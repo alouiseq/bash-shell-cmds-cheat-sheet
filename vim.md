@@ -83,5 +83,7 @@ gn: the next match
 
 **Ag**
 
-`:Ag <pattern>` **: open Ag for word searcher**<br />
+`:Ag <pattern>` **: find word in all directories and open file**<br />
+`:Ag! <pattern>` **: find word in all directories but do not open file**<br />
+`:Ag <pattern> <directory>` **: find word in specified directory**<br />
 
